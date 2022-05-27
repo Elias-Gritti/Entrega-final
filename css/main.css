@@ -41,6 +41,10 @@ header {
 nav a {
   color: #ffffff !important; }
 
+nav img {
+  width: 30%;
+  height: 30%; }
+
 main .main-img {
   height: 300px;
   width: 300px; }
@@ -102,7 +106,8 @@ main .form {
 
 footer {
   background-color: #0d0d49;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-top: 20px; }
   footer .redes {
     padding: 0%;
     display: flex;
