@@ -1,0 +1,24 @@
+{
+  "name": "entrega-final",
+  "version": "1.0.0",
+  "description": "Use maps en el _main-prod\r Use Mixin en el header del index\r Use extend en el _main del index\r Los 5 html tienen flavicon\r Los 5 html tienen Titulos diferentes\r Los 5 html tienen descripcion\r Los 5 html tienen Keywords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --incluide-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elias-Gritti/Entrega-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elias-Gritti/Entrega-final/issues"
+  },
+  "homepage": "https://github.com/Elias-Gritti/Entrega-final#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
