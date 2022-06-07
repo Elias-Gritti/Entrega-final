@@ -1,7 +1,13 @@
-
 $color-secondary: #ffffff;
 
 nav {
+    
+    background-color: #0d0d49;
+
+    .dropdown-menu {
+        background-color: #0d0d49;
+    }
+    
     a {
         color: $color-secondary !important;
     }
